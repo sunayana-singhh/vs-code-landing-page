@@ -11,6 +11,7 @@ div{
     padding: 10px;
     padding-top: 2px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .container {
@@ -29,6 +30,7 @@ div{
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+            background-color: lightblue;
         }
 
 .left span a {
@@ -38,8 +40,67 @@ div{
 .left h6 {
             margin-top: 30px;
             font-weight: normal;
+            font-size: 15px;
         }
 .right img {
-            width: 500px ;
+            width: 700px ;
             height: auto;
         }
+
+ a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgrey;
+  text-decoration: underline;
+}
+
+#searchInput {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px; /* Increase width as needed */
+  vertical-align: middle;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.search-download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-download input {
+  padding: 10px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 220px;  /* adjust width as needed */
+}
+
+.search-download button {
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0078d7;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-download button:hover {
+  background-color: #005a9e;
+}
+
+
+
