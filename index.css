@@ -1,0 +1,44 @@
+body{
+        background: #0e0e0e;
+}
+
+div{
+    color: white;
+}
+
+.toplink {
+    color: gray;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.container {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px;
+        }
+
+.left h1 {
+            font-size: 48px;
+            line-height: 1.2;
+        }
+
+.left button {
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+.left span a {
+            margin-right: 15px;
+            color: blue;
+        }
+.left h6 {
+            margin-top: 30px;
+            font-weight: normal;
+        }
+.right img {
+            width: 500px ;
+            height: auto;
+        }
